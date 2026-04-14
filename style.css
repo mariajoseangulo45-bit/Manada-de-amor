@@ -1,0 +1,214 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#fondo {
+    display: flex;
+    align-items: center;
+    padding: 80px 60px;       
+    justify-content: center;
+    background-size: cover;  
+    background-position: center; 
+    animation: fondo 90s infinite;
+}
+@keyframes fondo{
+    0% {
+        background-image: url("conejo.jpeg");
+    }
+    30% {
+        background-image: url("milu.jpeg");
+    }
+    50% {
+        background-image: url("perro1.jpeg");
+    }
+    70% {
+        background-image: url("perro2.jpeg");
+    }
+    100% {
+        background-image: url("perro.jpeg");
+    }
+}
+
+#fondo div {
+    max-width: 500px;  
+}
+
+#titulo {
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;              
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#palabra {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    line-height: 1.7;
+    font-weight: normal;       
+    text-align: center;
+}
+
+
+#inicio{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    gap: 5%;
+    padding: 5px;
+}
+
+ul a{
+    text-decoration: none;
+    color:#5A2720;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 25px;
+    padding: 10px 15px;
+}
+
+ul a:hover{
+    background-color: #F5A01D;
+    color:aliceblue;
+}
+
+
+#botones{
+margin-top: 30px;
+padding:5px 20px;
+display: flex;          
+justify-content: center;    
+gap: 20px; 
+}
+#botones1:hover{
+    transform: scale(1.1)
+}
+#botones2:hover{
+    transform: scale(1.1)
+}
+
+#botones1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-color: #ABE744;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+#botones2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-color: #F5A01D;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+#tituloconocenos{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #5A2720;
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+
+#quienessomos{
+    display: flex;
+    background-image: url(image.png);
+}
+
+#quienessomos div h3{
+    color:#5A2720;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+#quienessomos img{
+    width: 350px;
+    justify-content: right;
+    padding-right: 0px;
+}
+#quienessomos div h4{
+    color:#494646;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 120px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+
+.tarjetas {
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+  padding: top -15px;
+}
+
+.tarjeta{
+  background: #ffffff;
+  margin: 60px 5%;
+  padding: 10px 50px;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.493);
+}
+
+.tarjeta:hover{
+    transform: scale(0.9);
+}
+
+#tarjeta1 h3{
+    color: #7eba17;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+#tarjeta2 h3{
+    color: #00abd1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#tarjeta1 h4{
+    color:#494646;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#tarjeta2 h4{
+    color:#494646;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#testimonios{
+    color:#5A2720;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#testimonios div{
+    display: flex;
+  justify-content:center;
+  gap: 10%;
+  padding-top: 50px;
+}
