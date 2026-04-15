@@ -1,16 +1,20 @@
 nav{
     display: flex;
     justify-content: space-between;
+    height: 17dvh;
+    background-image: url(FONDO\ ayudanos.png);
 }
+main{position: relative;}
 
 #fondo {
     display: flex;
+    height: 100dvh;
     align-items: center;
     padding: 80px 60px;       
-    justify-content: center;
+    justify-content: space-between;
     background-size: cover;  
     background-position: center; 
-    animation: fondo 90s infinite;
+    animation: fondo 70s infinite;
 }
 @keyframes fondo{
     0% {
@@ -31,26 +35,43 @@ nav{
 }
 
 #fondo div {
-    max-width: 500px;  
+    max-width: 700px;  
 }
 
 #titulo {
-    font-size: 55px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     color: white;              
-    margin: 0 0 20px 0;
+    margin: 0 0 50px 0;
     line-height: 1.2;
     text-align: center;
+    animation: slideInUp 2s;
+}
+@keyframes slideInUp {
+    0% {
+        transform: translateY(50px); 
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); 
+        opacity: 1;
+    }
 }
 
 #palabra {
-    font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     color: rgb(255, 255, 255);
     margin: 0;
-    line-height: 1.7;
     font-weight: normal;       
     text-align: center;
+    animation: slideInUp 1s ease 0.5s forwards;
 }
 
 
@@ -65,10 +86,14 @@ nav{
 ul a{
     text-decoration: none;
     color:#5A2720;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     display: block;
     font-size: 25px;
-    padding: 10px 15px;
+    padding: 15px 15px;
+    text-align: right;
 }
 
 ul a:hover{
@@ -78,11 +103,12 @@ ul a:hover{
 
 
 #botones{
-margin-top: 30px;
+margin-top: 100px;
 padding:5px 20px;
 display: flex;          
 justify-content: center;    
 gap: 20px; 
+animation: slideInUp 1s ease 1s forwards;
 }
 #botones1:hover{
     transform: scale(1.1)
@@ -112,29 +138,24 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   font-size: 20px;
 }
 
-
-#tituloconocenos{
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-size: 40px;
-    color: #5A2720;
-    margin: 0px;
-    padding: 30px 0px;
+.conocenos{
+    padding: 80px;
 }
-
-
 #quienessomos{
     display: flex;
-    background-image: url(image.png);
 }
 
 #quienessomos div h3{
     color:#5A2720;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80px;
     padding-left: 50px;
-    padding-top: 40px;
 }
 
 #quienessomos img{
@@ -147,41 +168,49 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-right: 120px;
     padding-left: 50px;
-    font-size: 18px;
+    font-size: 15px;
+    padding-top: opx;
 }
+
 
 
 .tarjetas {
   display: flex;
   justify-content:center;
   gap: 20px;
-  padding: top -15px;
+  padding-top:65px;
 }
 
 .tarjeta{
-  background: #ffffff;
-  margin: 60px 5%;
+  margin: 40px 5%;
   padding: 10px 50px;
-  border-radius: 15px;
-  width: 200px;
+  border-radius: 12px 30px;
+  width: 350px;
+  height: 350px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.493);
 }
 
 .tarjeta:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 #tarjeta1 h3{
     color: #7eba17;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 40px;
     text-align: center;
 }
 #tarjeta2 h3{
     color: #00abd1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #tarjeta1 h4{
@@ -197,18 +226,472 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     padding-bottom: 20px;
 }
 
-#testimonios{
+
+
+.contenedor{
+    background-size: cover;
+    font-size: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    color: #5A2720;
+    text-align: center;
+    padding-top: 1px;
+    height: 60dvh;
+    background-image: url(image.png);
+}
+
+.boto{
+    padding-top: 6px;
+}
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(15deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(5deg); }
+    80% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#botones5{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-color: #F5A01D;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 2%;
+  animation: swing 1.6s infinite;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}    
+#botones3{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-color: #ABE744;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+    margin: 2%;
+    animation: swing 1.6s infinite;
+}
+#botones4{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-color: #00abd1;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+    margin: 2%;
+    animation: swing 1.6s infinite;
+}
+
+
+
+#testi{
     color:#5A2720;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    padding-left: 50px;
-    padding-top: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80px;
+    padding: 0px 40px;
+    text-align: center;
+}
+.comentarios{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 20px;
+    padding-top: 70px;
+}
+.comentario{
+  margin: 60px 1%;
+  padding: 10px 50px;
+  border-radius: 10px 30px;
+  width: 250px;
+  height: 300px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.493);
+}
+.comentario img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.comentario:hover{
+    transform: scale(1.1);
+}
+.comentario h3{
+    font-size: 23px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+}
+.comentario h4{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+#comentario1{
+    background-color:#7eba1765 ;
+}
+#comentario2{
+    background-color:#f59f1d64 ;
+}
+#comentario3{
+    background-color:#00abd15a ;
+}
+#comentario4{
+    background-color:#ba179946 ;
+}
+
+
+.carrusel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 250px;
+    justify-items: stretch;
+    animation: animation 30s linear infinite;
+}
+.carrusel img{
+    border-radius: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.56);
+}
+
+@keyframes animation {
+    0% {
+        transform: translateX(0px);
+    }
+   
+    50% {
+        transform: translateX(-800px);
+    }
+   
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+
+.siguenos{
+    background-size: cover;
+    font-size: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #5A2720;
+    text-align: center;
+    padding-top: 1px;
+    height: 50dvh;
+    background-image: url(image.png);
+}
+
+.botone img {
+    width: 100px;   
+    height: 100px;  
+    object-fit: contain; 
+    border-radius: 100%;
+    padding: 0px 50px 0px;
+    animation: swing 1.6s infinite;
+}
+
+
+
+.card {
+  width: 350px; 
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px 100px;
+  margin: 5% auto;
+  transition: transform 0.3s ease;
+  background-image: url(FONDO4.png);
+  background-size: cover;
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+input[type="text"], 
+input[type="number"], 
+input[type="email"],
+textarea {
+  display: block;
+  margin: 5px auto;
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.grid-opciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  text-align: left;
+  gap: 5px;
+  margin: 10px 0;
+  padding-left: 10%;
+}
+.grid-opciones label {
+  font-weight: normal;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.grid-opciones input {
+  width: auto; 
+  margin-right: 5px;
+}
+.btn-submit {
+  background-color: #a8e6cf;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px !important;
+  transition: 0.3s;
+}
+.btn-submit:hover {
+  background-color: #88d4b8;
+}    
+
+.footer {
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 40px 20px 10px;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-section {
+    max-width: 250px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #a8e6cf;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-section a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: #a8e6cf;
+}
+
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+
+
+
+@media (max-width: 480px){
+nav{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+#logo{
+    display: none;
+}
+
+
+#inicio{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+}
+
+ul a{
+    font-size: 18px;
+    padding: 10px;
     text-align: center;
 }
 
-#testimonios div{
-    display: flex;
-  justify-content:center;
-  gap: 10%;
-  padding-top: 50px;
+
+#fondo{
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
 }
+
+#titulo{
+    font-size: 32px;
+}
+
+#palabra{
+    font-size: 16px;
+}
+
+#botones{
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+#botones1, #botones2{
+    margin-top: 30px;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+}
+
+#quienessomos{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#quienessomos img{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#quienessomos div h3{
+    font-size: 32px;
+    padding: 0;
+}
+
+#quienessomos div h4{
+    padding: 0 10px;
+}
+
+.tarjetas{
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta{
+    width: 80%;
+    height: auto;
+}
+
+.contenedor{
+    background-size: cover;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    color: #5A2720;
+    text-align: center;
+    padding-top: 1px;
+    height: 50dvh;
+    background-image: url(image.png);
+}
+.boto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+#testi{
+    font-size: 40px;
+    padding-top: 100px;
+}
+.comentarios{
+    flex-direction: column;
+}
+.comentario{
+    width: 50%;
+}
+.siguenos{
+    background-size: cover;
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #5A2720;
+    text-align: center;
+    padding-top: 1px;
+    height: 26dvh;
+    background-image: url(image.png);
+}
+
+.botone img {
+    width: 50px;   
+    height: 50px;  
+    object-fit: contain; 
+    border-radius: 100%;
+    padding: 0px 30px 0px;
+    animation: swing 1.6s infinite;
+}
+
+/* FOOTER */
+.footer-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+}
+
+
+
