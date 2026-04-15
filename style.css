@@ -557,80 +557,64 @@ nav{
 #logo{
     display: none;
 }
-
-
 #inicio{
     flex-direction: column;
     align-items: center;
     gap: 10px;
     padding: 0;
 }
-
 ul a{
     font-size: 18px;
     padding: 10px;
     text-align: center;
 }
-
-
 #fondo{
     flex-direction: column;
     justify-content: center;
     padding: 20px;
     text-align: center;
 }
-
 #titulo{
     font-size: 32px;
 }
-
 #palabra{
     font-size: 16px;
 }
-
 #botones{
     flex-direction: column;
     gap: 10px;
     margin-top: 30px;
 }
-
 #botones1, #botones2{
     margin-top: 30px;
     width: 100%;
     font-size: 16px;
     padding: 12px;
 }
-
 #quienessomos{
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-
 #quienessomos img{
     width: 80%;
     margin-bottom: 20px;
 }
-
 #quienessomos div h3{
     font-size: 32px;
     padding: 0;
 }
-
 #quienessomos div h4{
     padding: 0 10px;
 }
-
 .tarjetas{
     flex-direction: column;
     align-items: center;
 }
-
 .tarjeta{
     width: 80%;
     height: auto;
 }
-
 .contenedor{
     background-size: cover;
     font-size: 30px;
@@ -674,7 +658,6 @@ ul a{
     height: 26dvh;
     background-image: url(image.png);
 }
-
 .botone img {
     width: 50px;   
     height: 50px;  
@@ -683,8 +666,32 @@ ul a{
     padding: 0px 30px 0px;
     animation: swing 1.6s infinite;
 }
-
-/* FOOTER */
+.card {
+  width: 40%; 
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px 100px;
+  margin: 5% auto;
+  transition: transform 0.3s ease;
+  background-image: url(FONDO4.png);
+  background-size: cover;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.grid-opciones {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr; 
+  text-align: left;
+  gap: 5px;
+  margin: 10px 0;
+  padding-left: 10%;
+}
 .footer-container{
     flex-direction: column;
     align-items: center;
