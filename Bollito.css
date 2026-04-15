@@ -1,0 +1,47 @@
+
+.contenedor-perfil {
+  display: flex;       
+  gap: 40px;           
+  padding: 40px;
+  align-items: flex-start;
+   background-image: url(FONDO2.jpeg); 
+}
+
+.foto-perro {
+  width: 400px;        
+  height: auto;        
+  border-radius: 10px;
+}
+
+.informacion ul {
+  list-style: none;   
+  padding: 0;
+  text-align: left;   
+}
+
+.informacion li {
+  margin-bottom: 10px; 
+}
+button{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ background-color: #ABE744;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+*{
+    font-size: 25px;
+}
+h1, h3{
+    font-size: 150%;
+}
+a{
+     text-decoration: none;
+     margin: 40px;
+     padding: 40px;
+     color: #00abd1;
+}

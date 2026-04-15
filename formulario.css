@@ -1,0 +1,74 @@
+.card {
+  width: 350px; /* Un poco más ancha para que no se estire tanto hacia abajo */
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px 100px;
+  margin: 5% auto;
+  transition: transform 0.3s ease;
+  background-image: url(FONDO4.png);
+  background-size: cover;
+   font-size: 40px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Estilo para etiquetas */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+/* Estilo para los cuadros de texto */
+input[type="text"], 
+input[type="number"], 
+input[type="email"],
+textarea {
+  display: block;
+  margin: 5px auto;
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Reducimos el espacio de las opciones de radio */
+.grid-opciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas para las opciones */
+  text-align: left;
+  gap: 5px;
+  margin: 10px 0;
+  padding-left: 10%;
+}
+
+.grid-opciones label {
+  font-weight: normal;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.grid-opciones input {
+  width: auto; /* Evita que el radio button ocupe todo el ancho */
+  margin-right: 5px;
+}
+
+.btn-submit {
+  background-color: #a8e6cf;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px !important;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #88d4b8;
+}    
