@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulariov.css">
+</head>
+<body>
+    <div class="card">
+    <h2>VOLUNTARIADO</h2>
+    <form action="/table.html" method="post">
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+" title="Solo se permiten letras y espacios" required placeholder="Ingrese su nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" placeholder="¿Dónde vives?">
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required placeholder="ejemplo@correo.com">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Opcional">
+
+        <div class="seccion-consulta">
+            <h4>¿Cuándo puedes ayudar?</h4>
+            <div class="grid-opciones">
+                <label><input type="radio" name="disponibilidad" value="ES"> Entre semana</label>
+                <label><input type="radio" name="disponibilidad" value="FS"> Fin de semana</label>
+            </div>
+        </div>
+
+        <div class="seccion-consulta">
+            <h4>¿Tienes experiencia?</h4>
+            <div class="grid-opciones">
+                <label><input type="radio" name="experiencia" value="S"> Sí, tengo</label>
+                <label><input type="radio" name="experiencia" value="N"> No, pero quiero aprender</label>
+            </div>
+        </div>
+
+        <label for="mensaje">Cuéntanos sobre ti</label>
+        <textarea id="mensaje" name="mensaje" rows="2" placeholder="¿Por qué quieres ser voluntario?"></textarea>
+        
+        <input type="submit" value="Ok" class="btn-submit">
+    </form>
+</div>
+</body>
+</html>
