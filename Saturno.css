@@ -45,3 +45,56 @@ a{
      padding: 40px;
      color: #00abd1;
 }
+@media (max-width: 1024px) {
+    .contenedor-perfil {
+        gap: 20px;
+        padding: 30px;
+    }
+    .foto-perro {
+        width: 350px;
+    }
+}
+
+@media (max-width: 820px) {
+    .contenedor-perfil {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .foto-perro {
+        width: 90%;
+        max-width: 500px;
+    }
+    .informacion ul {
+        text-align: center;
+        display: inline-block;
+    }
+    a {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    * {
+        font-size: 18px;
+    }
+    h1, h3 {
+        font-size: 130%;
+    }
+    .contenedor-perfil {
+        padding: 20px;
+        gap: 15px;
+    }
+    .foto-perro {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+    a {
+        margin: 10px;
+        padding: 10px;
+    }
+}

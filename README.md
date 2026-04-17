@@ -2,6 +2,7 @@
 
 **Proyecto educativo — HTML + CSS**
 
+**figma:**https://www.figma.com/design/7s1UUQgBfRtyL35Tds4Aor/Sin-t%C3%ADtulo?t=JhA6jBOzj0uZK7A3-1
 EL Sitio web fue creado para la Fundación Manada de Amor como proyecto educativo, una organización que rescata, cuida y busca hogar para perros en situación de abandono. El objetivo del proyecto fue trasladar esa misión a una página web real: que cualquier persona pueda conocer a los peludos, entender el trabajo de la fundación y ponerse en contacto para adoptar, donar o ser voluntario.
 
 ---

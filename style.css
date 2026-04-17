@@ -296,8 +296,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     animation: swing 1.6s infinite;
 }
 
-
-
 #testi{
     color:#5A2720;
     font-family: "Quicksand", sans-serif;
@@ -696,6 +694,22 @@ ul a{
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+#animales1{
+    display: none;
+}
+@keyframes animation {
+    0% {
+        transform: translateX(0px);
+    }
+   
+    50% {
+        transform: translateX(-200px);
+    }
+   
+    100% {
+        transform: translateX(0px);
+    }
 }
 
 }
