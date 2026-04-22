@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="voluntario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+        <section class="titulo">
+            <h1>ÙNETE COMO VOLUNTARIADO</h1>
+            <p>Con tu ayuda podemos salvar mas patitas, marca la diferencia.</p>
+            </section>
+        </nav>   
+    </header>
+    <main>
+        <section id="beneficios">
+            <div class="tarjetas">
+                <div id="tarjeta1" class="tarjeta">
+                <h3>Beneficios de ser voluntario<br>🐾</h3>
+                <h4>Al ser voluntario contribuyes al crecimiento de esta comunidad. Con cada acto positivo permites que nuevos peludos tengan una segunda oportunidad.</h4>
+                </div>
+
+                <div id="tarjeta2" class="tarjeta">
+                <h3>Responsabilidades y compromisos <br>💡</h3>
+                <h4>Adoptar conlleva grandes responsabilidades como tener más consciencia de que es un ser vivo el que necesita nuestros cuidados.</h4>
+                 </div>
+            </div>
+        </section>
+        <section id="pertenece">
+            <div id="pertenecer">
+            <h3>Inscrìbete</h3>
+            </div>
+            <section id="inscrìbete">
+                <div class="card">
+                        <form action="/table.html" method="post">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+" title="Solo se permiten letras y espacios" required placeholder="ingrese su nombre">
+                            <label for="apellido">Ciudad:</label>
+                            <input type="text" id="apellido" placeholder="ingrese su ciudad">
+                            <label for="correo">Inserte el correo:</label>
+                            <input type="email" id="correo" placeholder="ingrese el correo">
+                            <div class="seccion-consulta">
+                                <h4>Disponibilidad horaria</h4>
+                                <div class="grid-opciones">
+                                    <label><input type="radio" name="solicitud" value="A">Entre semana</label>
+                                    <label><input type="radio" name="solicitud" value="D">Fines de semana</label>
+                                    <label><input type="radio" name="solicitud" value="V">Ambos</label>
+                                </div>
+                            </div>
+                            <div class="seccion-consulta">
+                                <h4>Area de interes</h4>
+                                <div class="grid-opciones">
+                                    <label><input type="radio" name="solicitud" value="A">Cuidado animal</label>
+                                    <label><input type="radio" name="solicitud" value="D">Logistica</label>
+                                    <label><input type="radio" name="solicitud" value="V">Campaña</label>
+                                </div>
+                            </div>
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" rows="2" placeholder="Escribe aquí..."></textarea>
+                            
+                            <input type="submit" value="SER VOLUNTARIO!!!" class="btn-submit">
+                        </form>
+                    </div>    
+                </section>
+                </div>    
+            </section>
